@@ -1,0 +1,120 @@
+/*:root {
+    --primary-color: #427ecd;
+    --secondary-color: #ced9e7;
+    --font: 1.8rem;
+    --width: 100vw;
+}*/
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;             
+    margin: 0;
+    font-size: 62.5%;
+}
+
+#header img {
+    width: 60%;
+}
+
+.navbar-toggler-icon{
+    width: 60%;
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+}
+
+.text_platzi{
+    color: rgb(148, 203, 64) !important;
+}
+
+.collapse ul a{
+    font-size: 1.8rem;
+    color:azure;
+}
+
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover; /*si se estiro la imagen, le da el aspecto inicial*/
+    filter: grayscale(70%); /*le quita un poco de color a las imagenes xq sobre ellas vamos a abir distintas pantallas*/
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+#carousel .col{
+    font-size: 2rem;
+    /*z-index: 1;*/
+}
+
+.row .btn-platzi{
+    background-color: rgb(148, 203, 64);
+    color: white;
+}
+
+.btn-platzi:hover{
+    background-color: rgb(112, 154, 48);
+}
+
+#speakers .card-text{
+    font-size: 1.8rem;
+}
+
+#speakers .badges .badge{
+    font-size: 1.5rem;
+}
+
+#place-time .container-fluid{
+    background: #343a40;
+    color: white;
+}
+
+#place-time, 
+#place-time p{ 
+    font-size: 1.5rem
+}
+
+#place-time img{
+    max-width: 100%;
+}
+
+#conviertete-en-orador .text,
+#conviertete-en-orador .text p{
+    font-size: 1.5rem;
+}
+
+.form-row .form-control,
+.form-row .form-text{
+    font-size: 1.5rem;
+}
+
+.footer{
+    background: linear-gradient(to right top, #021025, #061e3a, #092c51, #0c3b68, #0e4a81);
+}
+
+
+.footer a{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.footer .row {
+    padding: 30px 0;
+}
+
+.form-comprar-tickets {
+    font-size: 1.5rem;
+}
